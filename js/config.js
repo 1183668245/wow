@@ -1,8 +1,8 @@
  
 const API_CONFIG = {
     BASE_URL: process.env.NODE_ENV === 'development' 
-        ? 'https://localhost:3001/api'   
-        : 'https://api.pmelody.top/api',
+        ? 'http://localhost:3001/api'  
+        : 'https://api.pmelody.top/api',  
     ENDPOINTS: {
         AUTH: '/auth',
         USERS: '/users', 
