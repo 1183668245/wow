@@ -421,7 +421,7 @@ async function goToTwitter() {
         updateTaskButtonState('twitter-btn', true);
         
          
-        const tweetText = "I’m using #PMelody, the AI + Web3 music platform! @PMelody_Plasma";
+        const tweetText = "I'm using #PMelody, the innovative music platform! @PMelody_Plasma";
         const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
         window.open(twitterUrl, '_blank');
         
